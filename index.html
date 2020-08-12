@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SIMON SPIN</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <section>
+            <div><i>SIMON</i>
+                <i style="color:#77cbd4">S</i><i style="color:#e053fc">P</i><i style="color:#ffb45f">I</i><i style="color:#bad666">N</i>
+            </div>
+
+        </section>
+    </header>
+    <div class="gameboard">
+        <div class="game-content">
+            <div id="game-buttons" class="game-buttons pause">
+
+                <div id="celeste" class="color celeste " data-color="celeste"></div>
+                <div id="violeta" class="color violeta " data-color="violeta"></div>
+                <div id="naranja" class="color naranja " data-color="naranja"></div>
+                <div id="verde" class="color verde " data-color="verde"></div>
+            </div>
+            <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">
+                <div class="arrow-right"></div>
+            </button>
+            <div id="game-state" class="game-state">
+
+                <img id="copa" src="img/trophy.png">
+                <img id="corazon" src="img/broken-heart.png">
+                </svg>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <section>
+            <div>NIVEL: <strong><label id="nivel">0</label></strong></div>
+        </section>
+
+    </footer>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
