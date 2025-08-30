@@ -40,8 +40,8 @@ header i{
 }
 section{
     /* border:solid blue; */
-   
-    
+
+
     padding: 5px 5px;
     display: grid;
     grid-template-columns: minmax(235px,400px);
@@ -62,7 +62,7 @@ section{
     justify-items: center;
 }
 .game-buttons {
-   
+
     border-radius: 50%;
     overflow: hidden;
     display: grid;
@@ -79,23 +79,23 @@ section{
     animation-timing-function: linear;
     /* animation-play-state: paused; */
     /* transition: 1s background; */
-    
+
 }
 .game-content{
-  
+
    display: flex;
    justify-content: center;
    align-items:center;
-   
+
 }
 .game-state {
     position :absolute;
     /* border:solid red ; */
-   
+
     background: transparent;
     border-radius: 50%;
     overflow: hidden;
-   
+
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -106,17 +106,17 @@ section{
     grid-row-gap: 15px;
     grid-column-gap: 15px;
     transition: 1s background;
-    
+
     display: none;
 
-    
+
 }
 .cambiaStatus{
     display: grid;
     animation: 3s status ;
  }
 @keyframes status {
-    
+
     20%{background:#0A0A12;transform: scale(.9)}
     70%{background:#0A0A12}
     100%{background:transparent ;}
@@ -156,12 +156,12 @@ section{
 .pause{
     animation-play-state:paused;
 }
-@keyframes rotacion{  
+@keyframes rotacion{
     100%{transform: rotate(360deg)}
 }
 .arrow-right {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-top: 35px solid transparent;
     border-bottom: 35px solid transparent;
     border-left: 35px solid black;
@@ -178,7 +178,7 @@ section{
 
 .celeste {
     background: #1c8892;
-   
+
 }
 
 .celeste.light {
@@ -202,7 +202,7 @@ section{
 .naranja.light {
     background: #ffb45f;
     box-shadow: 0px 0px 15px 3px  #ffb45f;
-    
+
 }
 
 .verde {
@@ -215,7 +215,7 @@ section{
 }
 
 .hide {
-   
+
     animation: .2s hider forwards;
     display: none;
 
